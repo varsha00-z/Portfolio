@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varsha Singh | BCA Data Science & AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">VS<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Varsha Singh</h1>
+      <div class="hero-role-wrapper">
+        <span class="hero-role" id="typedRole"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">Passionate about turning data into insights and building intelligent systems that solve real-world problems.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/varsha00-z" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:varshasingh5125@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-card-wrap">
+      <div class="profile-card" id="profileCard">
+        <div class="profile-card-inner">
+          <div class="profile-img-wrap">
+            <div class="profile-img-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="profile-badge"><i class="fas fa-robot"></i> AI &amp; DS</div>
+          </div>
+          <h3>Varsha Singh</h3>
+          <p>BCA – Data Science &amp; AI</p>
+          <div class="profile-stats">
+            <div class="stat"><span>4+</span><small>Projects</small></div>
+            <div class="stat"><span>4+</span><small>Certs</small></div>
+            <div class="stat"><span>8.8</span><small>GPA</small></div>
+          </div>
+          <a href="resume.pdf" download class="btn btn-primary btn-sm"><i class="fas fa-download"></i> Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Who I Am</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a third-year <strong>BCA student specializing in Data Science &amp; Artificial Intelligence</strong> at Shri Ramswaroop Memorial University. I'm deeply passionate about machine learning, data visualization, building AI-powered applications, and web development.</p>
+          <p>I enjoy working on end-to-end ML pipelines — from raw data collection and cleaning to model deployment, making web development projects  .</p>
+          <div class="about-chips">
+            <span><i class="fas fa-map-marker-alt"></i> Lucknow, Uttar Pradesh(India)</span>
+            <span><i class="fas fa-graduation-cap"></i> BCA 3rd Year</span>
+            <span><i class="fas fa-briefcase"></i> Open to Internships</span>
+          </div>
+        </div>
+        <div class="about-cards reveal">
+          <div class="info-card">
+            <i class="fas fa-brain"></i>
+            <h4>Machine Learning</h4>
+            <p>Building predictive models with scikit-learn</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-chart-bar"></i>
+            <h4>Data Analysis</h4>
+            <p>Transforming raw data into actionable insights with Python &amp; SQL.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-robot"></i>
+            <h4>AI Applications</h4>
+            <p>Developing NLP, CV solutions for real use-cases.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-code"></i>
+            <h4>Web Development</h4>
+            <p>Web development application using HTML, CSS, JavaScript, FastAPI &amp; React.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I Know</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-category">
+          <h4><i class="fas fa-code"></i> Languages</h4>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span><span>JavaScript</span><span>HTML/CSS</span><span>C++/Java</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4><i class="fas fa-layer-group"></i> ML / AI</h4>
+          <div class="skill-tags">
+            <span>scikit-learn</span><span>OpenCV</span><span>Streamlit</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4><i class="fas fa-database"></i> Data & Viz</h4>
+          <div class="skill-tags">
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Tableau</span><span>Power BI</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4><i class="fas fa-server"></i> Tools & Cloud</h4>
+          <div class="skill-tags">
+            <span>MS Excel</span><span>Jupyter</span><span>Google Colab</span>
+          </div>
+        </div>
+      </div>
+      <div class="progress-section reveal">
+        <div class="progress-item"><span>Python &amp; Data Science</span><div class="bar"><div class="bar-fill" data-w="92"></div></div><span class="pct">92%</span></div>
+        <div class="progress-item"><span>Machine Learning</span><div class="bar"><div class="bar-fill" data-w="85"></div></div><span class="pct">85%</span></div>
+        <div class="progress-item"><span>Web Development</span><div class="bar"><div class="bar-fill" data-w="80"></div></div><span class="pct">80%</span></div>
+        <div class="progress-item"><span>Data Visualization</span><div class="bar"><div class="bar-fill" data-w="88"></div></div><span class="pct">88%</span></div>
+        <div class="progress-item"><span>SQL &amp; Databases</span><div class="bar"><div class="bar-fill" data-w="80"></div></div><span class="pct">80%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I've Built</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-film"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/varsha00-z/movie-recommendation-system" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Movie Recommendation System</h3>
+          <p>A Data Science project that recommends movies based on user selection. This system analyzes movie data and suggests similar movies through an interactive web application.</p>
+          <div class="project-tags"><span>Python</span><span>Pandas</span><span>Streamlit</span><span>Jupyter Notebook</span></div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-chart-pie"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/varsha00-z/MovieRatingAnalysis" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>MovieRating Analysis Dashboard</h3>
+          <p>Real-time Movie Rating analysis dashboard using Power Bi</p>
+          <div class="project-tags"><span>Power BI</span></div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/varsha00-z/AI-Job-Radar---IBM-BOB-Project-" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>AIJobRadar</h3>
+          <p>A professional, interactive data analytics dashboard. Explore 10,000+ AI job postings to uncover salary trends, in-demand skills, geographic patterns, and more.</p>
+          <div class="project-tags"><span>Pandas</span><span>NumPy</span><span>Streamlit</span><span>scikit-learn</span><span>Plotly</span></div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/varsha00-z/LearnAI-Personal-Learning-Assistant-using-NLP" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>LearnAI</h3>
+          <p>A beginner-friendly, fully offline AI-powered study tool built with Python, NLP, and Machine Learning.</p>
+          <div class="project-tags"><span>nltk</span><span>Streamlit</span><span>scikit-learn</span><span>Python Libraries</span></div>
+        </div>
+
+        <!--<div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-film"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Movie Recommendation Engine</h3>
+          <p>Collaborative &amp; content-based filtering hybrid recommendation system with a clean Flask web interface.</p>
+          <div class="project-tags"><span>Pandas</span><span>Cosine Similarity</span><span>Flask</span><span>SQL</span></div>
+        </div>-->
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Journey</span>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024 – Present</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <h4>Shri Ramswaroop Memorial University</h4>
+            <p>Specialization in <strong>Data Science &amp; Artificial Intelligence</strong>. Current CGPA: <strong>8.8 / 10.0</strong>. Relevant coursework: Machine Learning, Deep Learning, Big Data Analytics, NLP, Computer Vision, Statistics.</p>
+            <div class="timeline-tags"><span>Data Science</span><span>AI/ML</span><span>Big Data</span></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-school"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2022 – 2023</span>
+            <h3>Higher Secondary Certificate (12th)</h3>
+            <h4>Kendriya Vidyalaya School</h4>
+            <p>Science stream with <strong>Mathematics, Chemistry &amp; Physics</strong>.</p>
+            <div class="timeline-tags"><span>Mathematics</span><span>Chemistry</span><span>Physics</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CERTIFICATIONS ─── -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Credentials</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="cert-grid">
+
+        <!-- Deloitte -->
+        <div class="cert-card reveal">
+          <div class="cert-logo deloitte">
+            <svg viewBox="0 0 60 28" width="52" height="24" xmlns="http://www.w3.org/2000/svg" aria-label="Deloitte">
+              <text x="0" y="22" font-family="Arial,sans-serif" font-weight="900" font-size="22" fill="#86BC25">.</text>
+              <text x="11" y="22" font-family="Arial,sans-serif" font-weight="700" font-size="17" fill="#ffffff">deloitte</text>
+            </svg>
+          </div>
+          <h4>Data Analytics Job Simulation</h4>
+          <p>Deloitte</p>
+          <span class="cert-year">2026</span>
+        </div>
+
+        <!-- IBM -->
+        <div class="cert-card reveal">
+          <div class="cert-logo ibm"><span>IBM</span></div>
+          <h4>Python for Data Science</h4>
+          <p>IBM</p>
+          <span class="cert-year">2025</span>
+        </div>
+
+        <!-- NTPL -->
+        <div class="cert-card reveal">
+          <div class="cert-logo ntpl">
+            <svg viewBox="0 0 60 32" width="54" height="28" xmlns="http://www.w3.org/2000/svg" aria-label="NTPL">
+              <rect x="0" y="4" width="12" height="22" rx="2" fill="#00aaff"/>
+              <rect x="14" y="4" width="12" height="22" rx="2" fill="#0077cc"/>
+              <text x="30" y="22" font-family="Arial,sans-serif" font-weight="800" font-size="14" fill="#ffffff">PL</text>
+            </svg>
+          </div>
+          <h4>Edge Computing</h4>
+          <p>NTPL</p>
+          <span class="cert-year">2026</span>
+        </div>
+
+        <!-- VaultOfCode -->
+        <div class="cert-card reveal">
+          <div class="cert-logo voc">
+            <svg viewBox="0 0 56 32" width="52" height="28" xmlns="http://www.w3.org/2000/svg" aria-label="VaultOfCode">
+              <polygon points="4,6 18,6 28,26 18,26" fill="#a78bfa"/>
+              <polygon points="18,6 32,6 28,26" fill="#7c3aed"/>
+              <text x="34" y="22" font-family="Arial,sans-serif" font-weight="800" font-size="11" fill="#c4b5fd">VOC</text>
+            </svg>
+          </div>
+          <h4>Web Development Internship</h4>
+          <p>VaultOfCode</p>
+          <span class="cert-year">2026</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>I'm currently open to <strong>internship opportunities</strong> and <strong>collaborative projects</strong> in data science and AI. Feel free to reach out!</p>
+          <div class="contact-item"><i class="fas fa-envelope"></i><a href="mailto:varshasingh5125@gmail.com">varshasingh5125@gmail.com</a></div>
+          <div class="contact-item"><i class="fas fa-phone"></i><a href="tel:+918303402217">+91 8303402217</a></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Lucknow(UP), India</span></div>
+          <div class="contact-socials">
+            <a href="https://github.com/varsha00-z target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" />
+            <label for="subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <div class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Varsha · Built with <i class="fas fa-heart"></i> · All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/varsha00-z" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:varshasingh5125@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
